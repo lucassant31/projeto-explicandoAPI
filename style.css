@@ -1,8 +1,10 @@
-body{
- width: auto;
- height: auto;
- 
+html {
+    scroll-snap-type: y mandatory;
+  }
 
+body { 
+   width: auto;
+   height: auto;
 }
 
 h1{
@@ -17,7 +19,7 @@ h1{
 }
 .o{
     font-family: 'Suwannaphum', serif;
-    color: rgb(143, 4, 4);
+    color: rgb(13, 8, 65);
 }
 
 h2{
@@ -26,7 +28,7 @@ h2{
 }
 
 
-h3{
+h3{ 
     font-family: 'Bitter', serif;
 }
 h3{
@@ -40,5 +42,10 @@ h3{
 
 .API{
     font-family: 'Suwannaphum', serif;
+    float: right;
+}
+
+.imagem{
+    float: right
 }
 
